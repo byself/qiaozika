@@ -1,0 +1,89 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>登录</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- 防止数字， 邮箱被解析成电话号码超链接 -->
+  <meta name="format-detection" content="telephone=no, email=no"/>
+
+  <!-- ios web app -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- //
+      1. 样式文件加载有先后顺序：normalize.css -> common.css
+      2. normalize.css是重置样式，必须首先被加载；
+      3. common.css是公共样式;
+   //-->
+  <link rel="stylesheet" href="../Themes/css/normalize.css">
+  <link rel="stylesheet" href="../Themes/js/swiper/css/swiper.min.css">
+
+  <link rel="stylesheet" href="../Themes/css/common.css">
+</head>
+<body>
+
+  <main class="login">
+
+    <div class="banner">
+      <img src="../Themes/images/img-banner.jpg" alt="">
+      <div class="text">
+        <div class="col2">
+          <h2>Giorgiocasa</h2>
+          <h3>Made in Italy</h3>
+        </div>
+      </div>
+    </div>
+
+    <div class="login-container">
+      <div class="login-tab">
+        <a href="" class="on"><span>登录</span></a><a href=""><span>注册</span></a><i class="line"></i>
+      </div>
+      <div class="login-form">
+        <div class="form-item">
+          <div class="form-label">手机号码</div>
+          <div class="form-input"><input type="tel" value="" /></div>
+        </div>
+        <div class="form-item">
+          <div class="form-label">密码</div>
+          <div class="form-input"><input type="password" value="" /></div>
+          <div class="form-other"><a href="">忘记密码？</a></div>
+        </div>
+        <div class="form-submit">
+          <a class="btn" href="#">登 录</a>
+        </div>
+      </div>
+      <div class="login-other">
+        <p>使用其它账号登录</p>
+        <img src="../Themes/images/icon-wechat-green.png" alt="">
+      </div>
+    </div>
+
+  </main>
+
+  <script src="../Themes/js/jquery-3.2.1.min.js"></script>
+  <script src="../Themes/js/swiper/js/swiper.min.js"></script>
+  <script src="../Themes/js/common.js"></script>
+  <script>
+
+    function setLoginHeight(){
+      var body_height = $("body").height();
+      var win_height = $(window).height();
+      if(body_height < win_height){
+        $(".login").height(win_height);
+      }
+    }
+
+    $(function () {
+      setLoginHeight()
+    })
+  </script>
+</body>
+</html>
