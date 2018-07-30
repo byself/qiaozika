@@ -1160,7 +1160,7 @@ button {
  ****************************/
 .case-container {
   position: relative;
-  margin-top: -58px;
+  margin-top: -68px;
 }
 
 .case-items {
@@ -1583,4 +1583,45 @@ button {
 }
 .find-password-ok img {
   width: 43px;
+}
+
+@media screen and (max-width: 320px) {
+  .login-tab {
+    height: 55px;
+    line-height: 55px;
+  }
+
+  .login-tab .line {
+    top: 17px;
+  }
+
+  .banner .text {
+    top: 25px;
+  }
+
+  .case-slide .swiper-slide {
+    width: 230px;
+    height: 264px;
+  }
+
+  .index-title h2 {
+    font-size: 52px;
+  }
+
+  .news-item img {
+    width: 120px;
+  }
+
+  .news-item .text h2 {
+    line-height: 20px;
+  }
+
+  .sku a {
+    height: 95px;
+  }
+
+  .sku-text {
+    padding-left: 15px;
+    padding-top: 15px;
+  }
 }
