@@ -1,0 +1,221 @@
+<!doctype html>
+<html>
+
+<head>
+  <meta charset="utf-8">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>产品详情</title>
+  <meta name="description" content="">
+  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
+
+  <!-- 防止数字， 邮箱被解析成电话号码超链接 -->
+  <meta name="format-detection" content="telephone=no, email=no"/>
+
+  <!-- ios web app -->
+  <meta name="apple-mobile-web-app-capable" content="yes" />
+  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
+
+  <link rel="apple-touch-icon" href="icon.png">
+  <!-- Place favicon.ico in the root directory -->
+
+  <!-- //
+      1. 样式文件加载有先后顺序：normalize.css -> common.css
+      2. normalize.css是重置样式，必须首先被加载；
+      3. common.css是公共样式;
+   //-->
+  <link rel="stylesheet" href="../Themes/css/normalize.css">
+  <link rel="stylesheet" href="../Themes/js/swiper/css/swiper.min.css">
+
+
+
+  <link rel="stylesheet" href="../Themes/css/common.css">
+</head>
+<body>
+
+  <header class="header">
+
+    <div class="logo">
+      <a href="/"></a>
+    </div>
+
+    <div class="top-search">
+      <input class="top-search-input" type="search" value="" /><button class="top-search-btn"></button>
+    </div>
+
+    <div class="nav-btn"></div>
+
+    <nav class="nav">
+      <ul>
+        <li><a href="">经典奢华</a></li>
+        <li><a href="">现代轻奢</a></li>
+        <li><a href="">简约时尚</a></li>
+        <li><a href="">儿童家具</a></li>
+        <li><a href="">灯具灯饰</a></li>
+        <li><a href="">家具饰品</a></li>
+        <li><a href="">案例展示</a></li>
+        <li><a href="">关于我们</a></li>
+        <li><a href="">新闻中心</a></li>
+        <li><a href="">会员中心</a></li>
+      </ul>
+    </nav>
+
+  </header>
+  <main class="main" style="background-color: #f5f5f5;">
+
+    <div class="banner">
+      <img src="../Themes/images/img-banner.jpg" alt="">
+    </div>
+
+    <div class="product-detail-container">
+      <div class="product-detail-desc">
+        <h3>Giorgiocasa</h3>
+        <h2>纯手工高档经典沙发</h2>
+        <p>产地：意大利</p>
+        <p>风格：现代轻奢</p>
+        <div class="like" onclick="fav(this)"></div>
+        <div class="share-container">
+          <a href="tel:18221395845" class="tel"></a>
+          <div class="share">
+            <a href="javascript:void(0)" class="share-item share-btn"><span>分享</span></a>
+            <a href="javascript:void(0)" class="share-item share-wechat focusBtn"></a>
+            <a href="javascript:void(0)" class="share-item share-weibo"></a>
+          </div>
+        </div>
+
+        <div class="product-detail-slide">
+          <img class="img" src="../Themes/images/img-product-slide-1.jpg" alt=""/>
+        </div>
+
+        <!--<div class="product-detail-slide">-->
+          <!--<div class="swiper-container product-detail-swiper-container">-->
+            <!--<div class="swiper-wrapper">-->
+              <!--<div class="swiper-slide">-->
+                <!--<img class="img" src="../Themes/images/img-product-slide-1.jpg" alt=""/>-->
+              <!--</div>-->
+              <!--<div class="swiper-slide">-->
+                <!--<img class="img" src="../Themes/images/img-product-slide-1.jpg" alt=""/>-->
+              <!--</div>-->
+              <!--<div class="swiper-slide">-->
+                <!--<img class="img" src="../Themes/images/img-product-slide-1.jpg" alt=""/>-->
+              <!--</div>-->
+            <!--</div>-->
+
+            <!--&lt;!&ndash; Add Pagination &ndash;&gt;-->
+            <!--<div class="swiper-pagination"></div>-->
+          <!--</div>-->
+        <!--</div>-->
+
+      </div>
+      <div class="product-detail-text">
+        <h2>详情描述</h2>
+        <p>简约是一种时尚,但不是现代都市喧嚣中的附着物,它只是回归自然的体验,一种真生活的提纯。追求简约时尚,不是毫无内涵的随波逐流,而是自然和现代的都市情。</p>
+        <p><img src="../Themes/images/img-product-detail-1.jpg" alt=""></p>
+      </div>
+    </div>
+
+    <div class="sku-tj">
+      <div class="index-title">
+        <h2>PRODUCT.</h2>
+        <h3>产品推荐</h3>
+      </div>
+      <div class="skus">
+        <div class="sku">
+          <a href="">
+            <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+            <div class="sku-text">
+              <span class="en">Giorgiocasa</span>
+              <h2>纯手工高档经典沙发</h2>
+              <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+            </div>
+          </a>
+          <i class="like on" onclick="fav(this)"></i>
+        </div>
+        <div class="sku">
+          <a href="">
+            <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+            <div class="sku-text">
+              <span class="en">Giorgiocasa</span>
+              <h2>纯手工高档经典沙发</h2>
+              <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+            </div>
+          </a>
+          <i class="like on" onclick="fav(this)"></i>
+        </div>
+        <div class="sku">
+          <a href="">
+            <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+            <div class="sku-text">
+              <span class="en">Giorgiocasa</span>
+              <h2>纯手工高档经典沙发</h2>
+              <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+            </div>
+          </a>
+          <i class="like on" onclick="fav(this)"></i>
+        </div>
+
+      </div>
+    </div>
+
+  </main>
+  <footer class="footer">
+    <a href="#"><img src="../Themes/images/icon-footer-1.png" /><br/>网站首页</a>
+    <a href="#"><img src="../Themes/images/icon-footer-2.png" /><br/>咨询客服</a>
+    <a href="#"><img src="../Themes/images/icon-footer-3.png" /><br/>电话咨询</a>
+    <a href="javascript:void(0);" class="focusBtn"><img src="../Themes/images/icon-footer-4.png" /><br/>关注我们</a>
+    <a href="#"><img src="../Themes/images/icon-footer-5.png" /><br/>关于我们</a>
+  </footer>
+
+  <div class="mask"></div>
+
+  <div class="focus-us" id="focusUs">
+    <div class="content">
+      <img class="wechat" src="../Themes/images/icon-wechat-black.png" alt="">
+      <p>乔姿卡萨官方微信<br/>扫一扫立即关注官方微信</p>
+      <img class="erweima" src="../Themes/images/erweima.png" alt="">
+      <br/>
+      <br/>
+      <br/>
+      <p>打开微信客户端即刻关注乔姿卡萨公众号</p>
+    </div>
+  </div>
+
+  <script src="../Themes/js/jquery-3.2.1.min.js"></script>
+  <script src="../Themes/js/swiper/js/swiper.min.js"></script>
+  <script src="../Themes/js/common.js"></script>
+  <script>
+
+    // 商品收藏
+    function fav(target) {
+      var $this = $(target);
+      if($this.hasClass("on")){
+        $this.removeClass("on")
+      }else {
+        $this.addClass("on")
+      }
+    }
+
+    // 商品转发
+    function share() {
+      var $this = $(".share");
+      if($this.hasClass("on")){
+        $this.removeClass("on")
+      }else {
+        $this.addClass("on")
+      }
+    }
+
+    $(function () {
+
+      var productdetailSwiper = new Swiper('.product-detail-swiper-container', {
+        pagination: {
+          el: '.product-detail-swiper-container .swiper-pagination',
+          type: 'fraction',
+        }
+      });
+
+      $(".share-btn").on("click", share);
+
+    })
+  </script>
+</body>
+</html>

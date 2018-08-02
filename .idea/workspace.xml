@@ -1,0 +1,619 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="16e4c8e1-1f44-4740-9f70-e9dc9617e946" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/Pages/about.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/caseDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/caseList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/fav.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/findPasswordNew.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/findPasswordOK.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/findPasswordPhone.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/index.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/login.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/newsDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/newsList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/productDetail.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/productList.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/productList2.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/registry.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/search.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Pages/userInfo.html" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/css/common.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/css/normalize.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/arrow-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/arrow-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/erweima.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-banner-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-case-next.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-case-prev.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-footer-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-footer-2.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-footer-3.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-footer-4.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-footer-5.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-heart.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-index-slide-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-nav.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-product-sort-1-gray.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-product-sort-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-serarch.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-share.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-wechat-black.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-wechat-green.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-wechat-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/icon-weibo-white.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-about-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-about-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-about-slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-banner.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-case-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-fav-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-address-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-case-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-space-1.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-style-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-style-2.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-style-3.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-style-4.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-style-5.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-index-style-6.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-news-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-ok.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-product-detail-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-product-slide-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-search-empty.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img-sku-1.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/img01.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/images/logo.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/common.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/jquery-3.2.1.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/css/swiper.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/css/swiper.min.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/js/swiper.esm.bundle.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/js/swiper.esm.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/js/swiper.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/js/swiper.min.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Themes/js/swiper/js/swiper.min.js.map" beforeDir="false" />
+    </list>
+    <ignored path="$PROJECT_DIR$/.tmp/" />
+    <ignored path="$PROJECT_DIR$/temp/" />
+    <ignored path="$PROJECT_DIR$/tmp/" />
+    <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
+    <option name="TRACKING_ENABLED" value="true" />
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileEditorManager">
+    <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pc/Themes/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="420">
+              <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="search.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pc/Pages/search.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="360">
+              <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+              <folding>
+                <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+                <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/pc/Themes/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="16770">
+              <caret line="1118" column="16" selection-start-line="1118" selection-start-column="16" selection-end-line="1118" selection-end-column="16" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.css" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/Themes/css/common.css">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="common.js" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/mobile/Themes/js/common.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="-126">
+              <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+              <folding>
+                <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productDetail.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/Pages/productDetail.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="184">
+              <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productList.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/Pages/productList.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="365">
+              <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="productList2.html" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/mobile/Pages/productList2.html">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="345">
+              <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+    </leaf>
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="JavaScript File" />
+        <option value="CSS File" />
+      </list>
+    </option>
+  </component>
+  <component name="FindInProjectRecents">
+    <findStrings>
+      <find>&lt;span class=&quot;en&quot;&gt;Classic Luxury&lt;/span&gt;</find>
+      <find>-webkit-transform</find>
+      <find>.index-address-item .text</find>
+      <find>.product-slide</find>
+      <find>case</find>
+      <find>transf</find>
+      <find>.index-title h2</find>
+      <find>rgba(0, 0, 0, 0.1)</find>
+      <find>rgba(0, 0, 0, 0</find>
+      <find>copyright</find>
+      <find>banner-s</find>
+      <find>index-service</find>
+      <find>.case-slide</find>
+      <find>index-reserve-form</find>
+      <find>.index-reserve</find>
+      <find>.case-slide .swiper-slide</find>
+      <find>#000</find>
+      <find>float</find>
+      <find>floatB</find>
+      <find>.sku</find>
+      <find>top-search</find>
+      <find>.index-reserve-form .form-input input</find>
+      <find>product-swiper-container</find>
+      <find>sku</find>
+      <find>.share-item</find>
+      <find>id=&quot;focus&quot;</find>
+      <find>.product-detail-desc .share</find>
+      <find>.product2-swiper-container</find>
+      <find>.nav</find>
+    </findStrings>
+    <replaceStrings>
+      <replace>&lt;b class=&quot;en&quot;&gt;Classic Luxury&lt;/b&gt;</replace>
+      <replace>#111</replace>
+      <replace>class=&quot;focusBtn&quot;</replace>
+    </replaceStrings>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="IdeDocumentHistory">
+    <option name="CHANGED_PATHS">
+      <list>
+        <option value="$PROJECT_DIR$/Themes/css/common.js.css" />
+        <option value="$PROJECT_DIR$/Pages/search.html" />
+        <option value="$PROJECT_DIR$/Pages/productDetail.html" />
+        <option value="$PROJECT_DIR$/Pages/caseDetail.html" />
+        <option value="$PROJECT_DIR$/Pages/caseList.html" />
+        <option value="$PROJECT_DIR$/Pages/newsList.html" />
+        <option value="$PROJECT_DIR$/Pages/newsDetail.html" />
+        <option value="$PROJECT_DIR$/Pages/about.html" />
+        <option value="$PROJECT_DIR$/Pages/productList2.html" />
+        <option value="$PROJECT_DIR$/Pages/index.html" />
+        <option value="$PROJECT_DIR$/Pages/login.html" />
+        <option value="$PROJECT_DIR$/Pages/registry.html" />
+        <option value="$PROJECT_DIR$/Pages/userInfo.html" />
+        <option value="$PROJECT_DIR$/Pages/fav.html" />
+        <option value="$PROJECT_DIR$/Pages/findPasswordPhone.html" />
+        <option value="$PROJECT_DIR$/Pages/findPasswordNew.html" />
+        <option value="$PROJECT_DIR$/Pages/findPasswordOK.html" />
+        <option value="$PROJECT_DIR$/Pages/productList.html" />
+        <option value="$PROJECT_DIR$/Themes/js/common.js" />
+        <option value="$PROJECT_DIR$/Themes/css/common.css" />
+        <option value="$PROJECT_DIR$/pc/Pages/index.html" />
+        <option value="$PROJECT_DIR$/pc/Themes/js/common.js" />
+        <option value="$PROJECT_DIR$/pc/Pages/search.html" />
+        <option value="$PROJECT_DIR$/pc/Themes/css/common.css" />
+        <option value="$PROJECT_DIR$/mobile/Pages/index.html" />
+        <option value="$PROJECT_DIR$/mobile/Pages/productList.html" />
+        <option value="$PROJECT_DIR$/mobile/Pages/search.html" />
+        <option value="$PROJECT_DIR$/mobile/Pages/productDetail.html" />
+        <option value="$PROJECT_DIR$/mobile/Pages/productList2.html" />
+        <option value="$PROJECT_DIR$/mobile/Themes/js/common.js" />
+        <option value="$PROJECT_DIR$/mobile/Themes/css/common.css" />
+      </list>
+    </option>
+  </component>
+  <component name="JsBuildToolGruntFileManager" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsBuildToolPackageJson" detection-done="true" sorting="DEFINITION_ORDER" />
+  <component name="JsFlowSettings">
+    <service-enabled>true</service-enabled>
+    <exe-path />
+    <other-services-enabled>true</other-services-enabled>
+    <auto-save>true</auto-save>
+  </component>
+  <component name="JsGulpfileManager">
+    <detection-done>true</detection-done>
+    <sorting>DEFINITION_ORDER</sorting>
+  </component>
+  <component name="NodePackageJsonFileManager">
+    <packageJsonPaths />
+  </component>
+  <component name="ProjectFrameBounds" extendedState="6">
+    <option name="x" value="386" />
+    <option name="y" value="50" />
+    <option name="width" value="1680" />
+    <option name="height" value="947" />
+  </component>
+  <component name="ProjectLevelVcsManager">
+    <ConfirmationsSetting value="1" id="Add" />
+  </component>
+  <component name="ProjectView">
+    <navigator proportions="" version="1">
+      <foldersAlwaysOnTop value="true" />
+    </navigator>
+    <panes>
+      <pane id="Scope" />
+      <pane id="ProjectPane">
+        <subPane>
+          <expand>
+            <path>
+              <item name="qiaozika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiaozika" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiaozika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiaozika" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiaozika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiaozika" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="Pages" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiaozika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiaozika" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="Themes" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiaozika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiaozika" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="Themes" type="462c0819:PsiDirectoryNode" />
+              <item name="css" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="qiaozika" type="b2602c69:ProjectViewProjectNode" />
+              <item name="qiaozika" type="462c0819:PsiDirectoryNode" />
+              <item name="mobile" type="462c0819:PsiDirectoryNode" />
+              <item name="Themes" type="462c0819:PsiDirectoryNode" />
+              <item name="js" type="462c0819:PsiDirectoryNode" />
+            </path>
+          </expand>
+          <select />
+        </subPane>
+      </pane>
+    </panes>
+  </component>
+  <component name="PropertiesComponent">
+    <property name="DefaultHtmlFileTemplate" value="HTML File" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="list.type.of.created.stylesheet" value="CSS" />
+    <property name="node.js.detected.package.prettier" value="true" />
+    <property name="node.js.path.for.package.prettier" value="project" />
+    <property name="node.js.selected.package.prettier" value="/usr/local/lib/node_modules/prettier" />
+    <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
+    <property name="nodejs_npm_path_reset_for_default_project" value="true" />
+    <property name="settings.editor.selected.configurable" value="coverage" />
+  </component>
+  <component name="RecentsManager">
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/Pages" />
+    </key>
+  </component>
+  <component name="RunDashboard">
+    <option name="ruleStates">
+      <list>
+        <RuleState>
+          <option name="name" value="ConfigurationTypeDashboardGroupingRule" />
+        </RuleState>
+        <RuleState>
+          <option name="name" value="StatusDashboardGroupingRule" />
+        </RuleState>
+      </list>
+    </option>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="16e4c8e1-1f44-4740-9f70-e9dc9617e946" name="Default" comment="" />
+      <created>1532743693879</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1532743693879</updated>
+      <workItem from="1532743695378" duration="62303000" />
+      <workItem from="1532957209168" duration="2960000" />
+      <workItem from="1533043347732" duration="14568000" />
+      <workItem from="1533104531991" duration="1736000" />
+      <workItem from="1533128197346" duration="6992000" />
+      <workItem from="1533192804088" duration="2338000" />
+      <workItem from="1533215063114" duration="2845000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TimeTrackingManager">
+    <option name="totallyTimeSpent" value="93742000" />
+  </component>
+  <component name="ToolWindowManager">
+    <frame x="0" y="23" width="1680" height="947" extended-state="6" />
+    <editor active="true" />
+    <layout>
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.24954791" />
+      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="Docker" order="7" show_stripe_button="false" />
+      <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
+      <window_info anchor="bottom" id="Find" order="1" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.32941177" />
+      <window_info anchor="bottom" id="Version Control" order="7" />
+      <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
+      <window_info anchor="bottom" id="Terminal" order="7" weight="0.32941177" />
+      <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
+      <window_info id="Favorites" order="2" side_tool="true" />
+      <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
+      <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
+      <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
+      <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
+      <window_info anchor="bottom" id="Message" order="0" />
+      <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
+    </layout>
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="VcsContentAnnotationSettings">
+    <option name="myLimit" value="2678400000" />
+  </component>
+  <component name="editorHistoryManager">
+    <entry file="file://$PROJECT_DIR$/mobile/Themes/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="24" column="16" selection-start-line="24" selection-start-column="16" selection-end-line="24" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Pages/productList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2430">
+          <caret line="162" column="18" lean-forward="true" selection-start-line="162" selection-start-column="18" selection-end-line="162" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="451" column="8" lean-forward="true" selection-start-line="368" selection-start-column="2" selection-end-line="451" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Themes/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" lean-forward="true" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Pages/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Themes/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16770">
+          <caret line="1118" column="16" lean-forward="true" selection-start-line="1118" selection-start-column="16" selection-end-line="1118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5580">
+          <caret line="372" column="16" lean-forward="true" selection-start-line="372" selection-start-column="16" selection-end-line="372" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Themes/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="15015">
+          <caret line="1001" column="14" lean-forward="true" selection-start-line="1001" selection-start-column="14" selection-end-line="1001" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="5775">
+          <caret line="385" column="33" lean-forward="true" selection-start-line="385" selection-start-column="33" selection-end-line="385" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Themes/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="14" lean-forward="true" selection-start-line="15" selection-start-column="14" selection-end-line="15" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Themes/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/Themes/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/Pages/productList.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/findPasswordPhone.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/findPasswordNew.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/findPasswordOK.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/fav.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/search.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/registry.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/userInfo.html" />
+    <entry file="file://$PROJECT_DIR$/Themes/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/Pages/productDetail.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/caseDetail.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/caseList.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/newsList.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/newsDetail.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/about.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/productList2.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/index.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/login.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/userInfo.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/search.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/fav.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/findPasswordPhone.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/registry.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/findPasswordNew.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/findPasswordOK.html" />
+    <entry file="file://$PROJECT_DIR$/Pages/productList.html" />
+    <entry file="file://$PROJECT_DIR$/Themes/js/common.js" />
+    <entry file="file://$PROJECT_DIR$/Themes/css/common.css" />
+    <entry file="file://$PROJECT_DIR$/pc/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="6765">
+          <caret line="451" column="8" selection-start-line="368" selection-start-column="2" selection-end-line="451" selection-end-column="8" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Themes/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="3" selection-start-line="28" selection-start-column="3" selection-end-line="28" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Pages/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="76" column="19" selection-start-line="76" selection-start-column="19" selection-end-line="76" selection-end-column="19" />
+          <folding>
+            <element signature="n#div#0;n#body#0;n#html#0;n#!!top" />
+            <element signature="n#div#1;n#body#0;n#html#0;n#!!top" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/pc/Themes/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="16770">
+          <caret line="1118" column="16" selection-start-line="1118" selection-start-column="16" selection-end-line="1118" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Pages/index.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="651">
+          <caret line="441" selection-start-line="441" selection-end-line="441" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Pages/search.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1014">
+          <caret line="147" column="5" selection-start-line="147" selection-start-column="5" selection-end-line="147" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Pages/productList.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="163" column="28" lean-forward="true" selection-start-line="163" selection-start-column="28" selection-end-line="163" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Pages/productDetail.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="184">
+          <caret line="75" column="37" lean-forward="true" selection-start-line="75" selection-start-column="37" selection-end-line="75" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Pages/productList2.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="345">
+          <caret line="73" column="59" selection-start-line="73" selection-start-column="59" selection-end-line="73" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Themes/css/common.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="365">
+          <caret line="168" column="21" selection-start-line="168" selection-start-column="21" selection-end-line="168" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/mobile/Themes/js/common.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-126">
+          <caret line="40" column="40" lean-forward="true" selection-start-line="40" selection-start-column="40" selection-end-line="40" selection-end-column="40" />
+          <folding>
+            <element signature="n#style#0;n#div#0;n#!!top" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+  </component>
+  <component name="masterDetails">
+    <states>
+      <state key="Copyright.UI">
+        <settings>
+          <splitter-proportions>
+            <option name="proportions">
+              <list>
+                <option value="0.2" />
+              </list>
+            </option>
+          </splitter-proportions>
+        </settings>
+      </state>
+    </states>
+  </component>
+</project>
