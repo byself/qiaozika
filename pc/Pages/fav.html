@@ -4,19 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>我的收藏</title>
+  <title>新闻中心</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-  <!-- 防止数字， 邮箱被解析成电话号码超链接 -->
-  <meta name="format-detection" content="telephone=no, email=no"/>
-
-  <!-- ios web app -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <!-- //
       1. 样式文件加载有先后顺序：normalize.css -> common.css
@@ -26,20 +15,14 @@
   <link rel="stylesheet" href="../Themes/css/normalize.css">
   <link rel="stylesheet" href="../Themes/js/swiper/css/swiper.min.css">
 
+
   <link rel="stylesheet" href="../Themes/css/common.css">
 </head>
 <body>
 
-  <main class="login">
+  <div class="login">
 
-    <div class="banner">
-      <img src="../Themes/images/img-banner.jpg" alt="">
-      <div class="text">
-        <div class="col2">
-          <h2>Giorgiocasa</h2>
-          <h3>Made in Italy</h3>
-        </div>
-      </div>
+    <div class="banner" style="background-image: url('../Themes/images/banner-login.jpg')">
     </div>
 
     <div class="login-container">
@@ -47,58 +30,97 @@
         <a href="javascript:void(0);" class="on"><span>我的收藏</span></a>
       </div>
 
-      <div class="fav-empty">
-        <img src="../Themes/images/img-fav-empty.png" alt="">
-        <p>暂无收藏记录，赶紧去看收藏吧</p>
-      </div>
+      <div class="container">
 
-      <div class="fav-list">
-        <div class="skus">
-          <div class="sku">
-            <a href="">
-              <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
-              <div class="sku-text">
-                <span class="en">Giorgiocasa</span>
-                <h2>纯手工高档经典沙发</h2>
-                <i class="like"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="sku">
-            <a href="">
-              <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
-              <div class="sku-text">
-                <span class="en">Giorgiocasa</span>
-                <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
-              </div>
-            </a>
-          </div>
-          <div class="sku">
-            <a href="">
-              <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
-              <div class="sku-text">
-                <span class="en">Giorgiocasa</span>
-                <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
-              </div>
-            </a>
-          </div>
+        <div class="fav-empty">
+          <img src="../Themes/images/img-fav-empty.png" alt="">
+          <p>暂无收藏记录，赶紧去看收藏吧</p>
+        </div>
 
+        <div class="fav-list">
+          <div class="skus">
+            <div class="sku">
+              <a href="">
+                <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+                <div class="sku-text">
+                  <span class="en">Giorgiocasa</span>
+                  <h2>纯手工高档经典沙发</h2>
+                  <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                  <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
+                </div>
+              </a>
+              <i class="like" onclick="fav(this)"></i>
+            </div>
+            <div class="sku">
+              <a href="">
+                <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+                <div class="sku-text">
+                  <span class="en">Giorgiocasa</span>
+                  <h2>纯手工高档经典沙发</h2>
+                  <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                  <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
+                </div>
+              </a>
+              <i class="like" onclick="fav(this)"></i>
+            </div>
+            <div class="sku">
+              <a href="">
+                <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+                <div class="sku-text">
+                  <span class="en">Giorgiocasa</span>
+                  <h2>纯手工高档经典沙发</h2>
+                  <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                  <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
+                </div>
+              </a>
+              <i class="like" onclick="fav(this)"></i>
+            </div>
+            <div class="sku">
+              <a href="">
+                <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+                <div class="sku-text">
+                  <span class="en">Giorgiocasa</span>
+                  <h2>纯手工高档经典沙发</h2>
+                  <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                  <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
+                </div>
+              </a>
+              <i class="like" onclick="fav(this)"></i>
+            </div>
+            <div class="sku">
+              <a href="">
+                <img class="sku-img" src="../Themes/images/img-sku-1.jpg" alt="">
+                <div class="sku-text">
+                  <span class="en">Giorgiocasa</span>
+                  <h2>纯手工高档经典沙发</h2>
+                  <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                  <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
+                </div>
+              </a>
+              <i class="like" onclick="fav(this)"></i>
+            </div>
+
+          </div>
         </div>
       </div>
 
     </div>
 
-  </main>
+  </div>
 
   <script src="../Themes/js/jquery-3.2.1.min.js"></script>
   <script src="../Themes/js/swiper/js/swiper.min.js"></script>
   <script src="../Themes/js/common.js"></script>
   <script>
+    // 商品收藏
+    function fav(target) {
+      var $this = $(target);
+      if($this.hasClass("on")){
+        $this.removeClass("on")
+      }else {
+        $this.addClass("on")
+      }
+    }
 
     function setLoginHeight(){
       var body_height = $("body").height();

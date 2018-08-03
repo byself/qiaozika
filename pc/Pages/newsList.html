@@ -4,19 +4,8 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>新闻</title>
+  <title>新闻中心</title>
   <meta name="description" content="">
-  <meta name="viewport" content="width=device-width, initial-scale=1, user-scalable=no">
-
-  <!-- 防止数字， 邮箱被解析成电话号码超链接 -->
-  <meta name="format-detection" content="telephone=no, email=no"/>
-
-  <!-- ios web app -->
-  <meta name="apple-mobile-web-app-capable" content="yes" />
-  <meta name="apple-mobile-web-app-status-bar-style" content="black" />
-
-  <link rel="apple-touch-icon" href="icon.png">
-  <!-- Place favicon.ico in the root directory -->
 
   <!-- //
       1. 样式文件加载有先后顺序：normalize.css -> common.css
@@ -27,53 +16,71 @@
   <link rel="stylesheet" href="../Themes/js/swiper/css/swiper.min.css">
 
 
-
   <link rel="stylesheet" href="../Themes/css/common.css">
 </head>
 <body>
-
-  <header class="header">
-
+  <div class="header">
+  <div class="container">
     <div class="logo">
-      <a href="/"></a>
+      <a href="/"><img src="../Themes/images/logo.png" alt=""></a>
     </div>
-
-    <div class="top-search">
-      <input class="top-search-input" type="search" value="" /><button class="top-search-btn"></button>
+    <div class="header-r">
+      <div class="top-search">
+        <input class="top-search-input" type="search" value="" /><button class="top-search-btn"></button>
+      </div>
+      <div class="top-tel">
+        <img src="../Themes/images/icon-footer-3.png" alt="">400-098-6988
+      </div>
     </div>
-
-    <div class="nav-btn"></div>
-
-    <nav class="nav">
-      <ul>
-        <li><a href="">经典奢华</a></li>
-        <li><a href="">现代轻奢</a></li>
-        <li><a href="">简约时尚</a></li>
-        <li><a href="">儿童家具</a></li>
-        <li><a href="">灯具灯饰</a></li>
-        <li><a href="">家具饰品</a></li>
-        <li><a href="">案例展示</a></li>
-        <li><a href="">关于我们</a></li>
-        <li><a href="">新闻中心</a></li>
-        <li><a href="">会员中心</a></li>
-      </ul>
-    </nav>
-
-  </header>
-  <main class="main" style="background-color: #f5f5f5;">
-
-    <div class="banner">
-      <img src="../Themes/images/img-banner.jpg" alt="">
-      <div class="text">
-        <div class="col1">Italy</div>
-        <div class="col2">
-          <h2>乔姿卡萨进口家居经典案例</h2>
-          <h3><span>因为专业</span><span>更见贴心</span></h3>
+    <div class="header-r">
+      <div class="top-dropdown">
+        <div class="nav-btn"></div>
+        <div class="nav">
+          <ul>
+            <li><a href="">案例展示</a></li>
+            <li><a href="">关于我们</a></li>
+            <li><a href="">新闻中心</a></li>
+          </ul>
         </div>
+      </div>
+      <div class="top-login">
+        <a href="">登录 / 注册</a>
+      </div>
+      <div class="top-userinfo">
+        您好，18221394834
+        <div class="nav show">
+          <ul>
+            <li><a href="">进入个人中心</a></li>
+            <li><a href="">退出</a></li>
+          </ul>
+        </div>
+      </div>
+      <div class="top-nav">
+        <ul>
+          <li class="on"><a href="">首 页</a></li>
+          <li><a href="">经典奢华</a></li>
+          <li><a href="">现代轻奢</a></li>
+          <li><a href="">简约时尚</a></li>
+          <li><a href="">儿童家具</a></li>
+          <li><a href="">灯具灯饰</a></li>
+          <li><a href="">家具饰品</a></li>
+        </ul>
       </div>
     </div>
 
-    <div class="news-container">
+
+  </div>
+
+</div>
+  <div class="main" >
+
+    <div class="banner" style="background-image: url('../Themes/images/img-banner.jpg')"></div>
+
+    <div class="container">
+      <div class="position">
+        <img src="../Themes/images/icon-position.png" alt=""><a href="">首页</a> > <span>搜索</span>
+      </div>
+      <div class="news-container">
       <div class="news-items">
 
         <div class="news-item">
@@ -81,7 +88,7 @@
             <img src="../Themes/images/img-news-1.jpg" alt="">
             <div class="text">
               <h2>MOROSO 温柔絮语家居界的一首情诗</h2>
-              <span class="arrow"></span>
+              <p>上海乔姿卡萨进口家居作为一家专业运营欧洲原产家具的国际运营商，自成立以来，一直秉承"专注欧洲高品质家具，质保十年"的承诺，积极与原产意大利、德国、瑞士的高端家具品...</p>
             </div>
             <div class="date">
               <b>29 / </b>07 / 2018
@@ -93,7 +100,7 @@
             <img src="../Themes/images/img-news-1.jpg" alt="">
             <div class="text">
               <h2>MOROSO 温柔絮语家居界的一首情诗</h2>
-              <span class="arrow"></span>
+              <p>上海乔姿卡萨进口家居作为一家专业运营欧洲原产家具的国际运营商，自成立以来，一直秉承"专注欧洲高品质家具，质保十年"的承诺，积极与原产意大利、德国、瑞士的高端家具品...</p>
             </div>
             <div class="date">
               <b>29 / </b>07 / 2018
@@ -105,7 +112,7 @@
             <img src="../Themes/images/img-news-1.jpg" alt="">
             <div class="text">
               <h2>MOROSO 温柔絮语家居界的一首情诗</h2>
-              <span class="arrow"></span>
+              <p>上海乔姿卡萨进口家居作为一家专业运营欧洲原产家具的国际运营商，自成立以来，一直秉承"专注欧洲高品质家具，质保十年"的承诺，积极与原产意大利、德国、瑞士的高端家具品...</p>
             </div>
             <div class="date">
               <b>29 / </b>07 / 2018
@@ -117,7 +124,7 @@
             <img src="../Themes/images/img-news-1.jpg" alt="">
             <div class="text">
               <h2>MOROSO 温柔絮语家居界的一首情诗</h2>
-              <span class="arrow"></span>
+              <p>上海乔姿卡萨进口家居作为一家专业运营欧洲原产家具的国际运营商，自成立以来，一直秉承"专注欧洲高品质家具，质保十年"的承诺，积极与原产意大利、德国、瑞士的高端家具品...</p>
             </div>
             <div class="date">
               <b>29 / </b>07 / 2018
@@ -129,7 +136,7 @@
             <img src="../Themes/images/img-news-1.jpg" alt="">
             <div class="text">
               <h2>MOROSO 温柔絮语家居界的一首情诗</h2>
-              <span class="arrow"></span>
+              <p>上海乔姿卡萨进口家居作为一家专业运营欧洲原产家具的国际运营商，自成立以来，一直秉承"专注欧洲高品质家具，质保十年"的承诺，积极与原产意大利、德国、瑞士的高端家具品...</p>
             </div>
             <div class="date">
               <b>29 / </b>07 / 2018
@@ -139,28 +146,92 @@
 
       </div>
     </div>
+    </div>
+  </div>
 
-  </main>
-  <footer class="footer">
+  <div class="footer">
+    <div class="container">
+      <div class="footer-nav">
+        <div class="footer-nav-col1">
+          <dl>
+            <dt><a href="">经典奢华</a></dt>
+            <dd><a href="">客厅系列</a></dd>
+            <dd><a href="">餐厅系列</a></dd>
+            <dd><a href="">卧房系列</a></dd>
+            <dd><a href="">书房系列</a></dd>
+            <dd><a href="">休闲系列</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="">现代轻奢</a></dt>
+            <dd><a href="">客厅系列</a></dd>
+            <dd><a href="">餐厅系列</a></dd>
+            <dd><a href="">卧房系列</a></dd>
+            <dd><a href="">书房系列</a></dd>
+            <dd><a href="">休闲系列</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="">简约时尚</a></dt>
+            <dd><a href="">客厅系列</a></dd>
+            <dd><a href="">餐厅系列</a></dd>
+            <dd><a href="">卧房系列</a></dd>
+            <dd><a href="">书房系列</a></dd>
+            <dd><a href="">休闲系列</a></dd>
+          </dl>
+        </div>
+        <div class="footer-nav-col1">
+          <dl>
+            <dt><a href="">儿童家具</a></dt>
+            <dd><a href="">卧房系列</a></dd>
+            <dd><a href="">书房系列</a></dd>
+            <dd><a href="">起居室系列</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="">灯具灯饰</a></dt>
+            <dd><a href="">吊灯</a></dd>
+            <dd><a href="">落地灯</a></dd>
+            <dd><a href="">台灯</a></dd>
+          </dl>
+          <dl>
+            <dt><a href="">家居家饰</a></dt>
+            <dd><a href="">饰品</a></dd>
+            <dd><a href="">瑞士床垫</a></dd>
+            <dd><a href="">德国床垫</a></dd>
+            <dd><a href="">枕头</a></dd>
+          </dl>
+        </div>
+        <div class="footer-nav-col3">
+          <dl>
+            <dt>官方微信</dt>
+            <dd><img src="../Themes/images/erweima.png" alt=""></dd>
+          </dl>
+          <dl>
+            <dt>官方微博</dt>
+            <dd><img src="../Themes/images/erweima.png" alt=""></dd>
+          </dl>
+        </div>
+      </div>
+      <div class="footer-tips">
+        <div class="footer-logo">
+          <a href=""><img src="../Themes/images/logo.png" alt=""></a>
+        </div>
+        <div class="footer-text">
+          特别声明：近日「乔姿卡萨进口家居」发现部分不良商家盗用「乔姿卡萨进口家居」欧洲发货物流图进行虚假宣传，针对于此，「乔姿卡萨进口家居」严正申明，凡盗用「乔姿卡萨进口家居」官网、公众号、自媒体等平台图片及资料进行宣传者，一经发现必追究其法律责任。
+        </div>
+      </div>
+    </div>
+  </div>
+
+  <div class="copyright">
+    Copyright © 2018  All rights reserved. 沪ICP备189643141号-2
+  </div>
+
+  <div class="floatBox">
     <a href="#"><img src="../Themes/images/icon-footer-1.png" /><br/>网站首页</a>
     <a href="#"><img src="../Themes/images/icon-footer-2.png" /><br/>咨询客服</a>
     <a href="#"><img src="../Themes/images/icon-footer-3.png" /><br/>电话咨询</a>
     <a href="javascript:void(0);" class="focusBtn"><img src="../Themes/images/icon-footer-4.png" /><br/>关注我们</a>
     <a href="#"><img src="../Themes/images/icon-footer-5.png" /><br/>关于我们</a>
-  </footer>
-
-  <div class="mask"></div>
-
-  <div class="focus-us" id="focusUs">
-    <div class="content">
-      <img class="wechat" src="../Themes/images/icon-wechat-black.png" alt="">
-      <p>乔姿卡萨官方微信<br/>扫一扫立即关注官方微信</p>
-      <img class="erweima" src="../Themes/images/erweima.png" alt="">
-      <br/>
-      <br/>
-      <br/>
-      <p>打开微信客户端即刻关注乔姿卡萨公众号</p>
-    </div>
+    <a href="javascript:void(0);" id="toTop"><img src="../Themes/images/icon-arrow-up.png" /><br/>返回顶部</a>
   </div>
 
   <script src="../Themes/js/jquery-3.2.1.min.js"></script>

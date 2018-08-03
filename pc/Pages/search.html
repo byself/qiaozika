@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>首页</title>
+  <title>搜索</title>
   <meta name="description" content="">
 
   <!-- //
@@ -95,10 +95,11 @@
               <div class="sku-text">
                 <span class="en">Giorgiocasa</span>
                 <h2>纯手工高档经典沙发</h2>
-                <i class="like"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
               </div>
             </a>
+            <i class="like" onclick="fav(this)"></i>
           </div>
           <div class="sku">
             <a href="">
@@ -106,10 +107,11 @@
               <div class="sku-text">
                 <span class="en">Giorgiocasa</span>
                 <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
               </div>
             </a>
+            <i class="like" onclick="fav(this)"></i>
           </div>
           <div class="sku">
             <a href="">
@@ -117,10 +119,11 @@
               <div class="sku-text">
                 <span class="en">Giorgiocasa</span>
                 <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
               </div>
             </a>
+            <i class="like" onclick="fav(this)"></i>
           </div>
           <div class="sku">
             <a href="">
@@ -128,10 +131,11 @@
               <div class="sku-text">
                 <span class="en">Giorgiocasa</span>
                 <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
               </div>
             </a>
+            <i class="like" onclick="fav(this)"></i>
           </div>
           <div class="sku">
             <a href="">
@@ -139,10 +143,11 @@
               <div class="sku-text">
                 <span class="en">Giorgiocasa</span>
                 <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
               </div>
             </a>
+            <i class="like" onclick="fav(this)"></i>
           </div>
           <div class="sku">
             <a href="">
@@ -150,10 +155,11 @@
               <div class="sku-text">
                 <span class="en">Giorgiocasa</span>
                 <h2>纯手工高档经典沙发</h2>
-                <i class="like on"></i>
-                <img class="more" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more default" src="../Themes/images/arrow-gray.png" alt="">
+                <img class="more hover" src="../Themes/images/arrow-black.png" alt="">
               </div>
             </a>
+            <i class="like" onclick="fav(this)"></i>
           </div>
 
         </div>
@@ -251,6 +257,15 @@
   <script src="../Themes/js/swiper/js/swiper.min.js"></script>
   <script src="../Themes/js/common.js"></script>
   <script>
+    // 商品收藏
+    function fav(target) {
+      var $this = $(target);
+      if($this.hasClass("on")){
+        $this.removeClass("on")
+      }else {
+        $this.addClass("on")
+      }
+    }
     $(function () {
       setHeight();
     })

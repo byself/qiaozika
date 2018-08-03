@@ -4,7 +4,7 @@
 <head>
   <meta charset="utf-8">
   <meta http-equiv="x-ua-compatible" content="ie=edge">
-  <title>新闻中心</title>
+  <title>微信登录</title>
   <meta name="description" content="">
 
   <!-- //
@@ -27,17 +27,12 @@
 
     <div class="login-container">
       <div class="login-tab">
-        <a href="" class="on"><span>找回密码</span></a>
+        <a href="" class="on"><span>微信登录</span></a>
       </div>
-      <div class="login-form">
-        <div class="form-item">
-          <div class="form-input"><input type="password" placeholder="请输入密码" value="" /></div>
-        </div>
-        <div class="form-item">
-          <div class="form-input"><input type="password" placeholder="请重复输入密码" value="" /></div>
-        </div>
-        <div class="form-submit">
-          <a class="btn" href="#">下一步</a>
+      <div class="login-wechat">
+        <img src="../Themes/images/erweima.png" alt="">
+        <div class="login-wechat-tip">
+          请使用微信扫描二维码登录<br/>“乔姿卡萨官网”
         </div>
       </div>
     </div>
@@ -57,8 +52,39 @@
       }
     }
 
+    /**
+     *  发送验证码倒计时
+     */
+
+    function CountDown() {
+      var SECONDS = 60; // 倒计时描述
+
+      var $btn = $("#btnVcode");
+      var timer = null;
+
+      var text = SECONDS + "s后重新发送";
+      $btn.unbind().text(text);
+
+      var count = function(){
+        if(SECONDS > 0){
+          text = --SECONDS + "s后重新发送";
+        }else{
+          clearInterval(timer);
+          text = "发送验证码";
+          $btn.on("click", CountDown);
+        }
+
+        $btn.text(text);
+
+      };
+
+      timer = setInterval(count, 1000);
+    }
+
     $(function () {
       setLoginHeight();
+
+      $("#btnVcode").on("click", CountDown);
     })
   </script>
 </body>

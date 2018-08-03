@@ -476,22 +476,29 @@ button {
  ****************************/
 .share {
   display: inline-block;
-  height: 30px;
-  border-radius: 15px;
-  background-color: #111;
+  height: 36px;
+  border-radius: 18px;
+  background-color: #000;
 }
 
 .share-item {
   display: inline-block;
-  width: 30px;
-  height: 30px;
+  width: 36px;
+  height: 36px;
+  line-height: 36px;
+  color: #fff;
+  font-size: 12px;
   background-repeat: no-repeat;
   background-size: 18px auto;
   background-position: 50% 50%;
+  vertical-align: middle;
 }
 
 .share-btn {
+  text-indent: 34px;
+  width: 70px;
   background-image: url("../images/icon-share.png");
+  background-position: 10px 50%;
 }
 
 .share-wechat {
@@ -509,6 +516,7 @@ button {
 .position {
   margin: 25px 0;
   height: 20px;
+  line-height: 20px;
   text-align: right;
   font-size: 12px;
   color: #666;
@@ -516,6 +524,7 @@ button {
 
 .position img {
   margin-right: 10px;
+  margin-top: -4px;
 }
 
 .position a {
@@ -609,6 +618,14 @@ button {
   opacity: 0.5;
 }
 
+.index-bg {
+  position: absolute;
+  top: -180px;
+  width: 100%;
+  height: 180px;
+  background: url("../images/img-bg-x.png") repeat-x transparent;
+}
+
 .index-ds {
   padding: 180px 0 90px;
   background-color: #111;
@@ -627,7 +644,6 @@ button {
   left: 52px;
   padding: 15px;
   background-color: #fff;
-  border-radius: 8px;
   box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
 }
 
@@ -680,7 +696,7 @@ button {
 }
 
 .index-title {
-  margin-bottom: 30px;
+  margin-bottom: 45px;
   text-align: center;
   overflow: hidden;
 }
@@ -884,7 +900,9 @@ button {
   position: relative;
   width: 396px;
   height: 454px;
+  border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .case-slide .swiper-slide::after {
@@ -1052,7 +1070,7 @@ button {
 
 .index-reserve-form .form-input input {
   margin: 0;
-  padding: 12px 0;
+  padding: 15px 0;
   width: 100%;
   border: 0;
   text-indent: 15px;
@@ -1067,7 +1085,7 @@ button {
 }
 
 .index-reserve-form .form-error {
-  padding: 2px 15px 0;
+  padding: 5px 15px 0;
   height: 16px;
   line-height: 16px;
   font-size: 12px;
@@ -1139,6 +1157,7 @@ button {
 }
 
 .sku {
+  position: relative;
   float: left;
   width: 285px;
   margin: 10px;
@@ -1156,7 +1175,7 @@ button {
 
 .sku-text {
   position: relative;
-  padding: 15px 18px 10px;
+  padding: 15px 18px 30px;
   overflow: hidden;
 }
 
@@ -1175,7 +1194,10 @@ button {
   overflow: hidden;
 }
 
-.sku-text .like {
+.sku .like {
+  position: absolute;
+  left: 18px;
+  bottom: 15px;
 }
 
 .sku-text .more {
@@ -1185,49 +1207,46 @@ button {
   width: 16px;
 }
 
+.sku .hover {
+  display: none;
+}
+
+.sku a:hover .hover {
+  display: inline;
+}
+
+.sku a:hover .default {
+  display: none;
+}
+
 /****************************
  * 产品推荐
  ****************************/
 .sku-tj {
-  background-color: #fff;
+  margin-top: 60px;
+  margin-bottom: 60px;
   overflow: hidden;
-}
-.sku-tj .skus {
-  margin-top: -78px;
-  padding: 0 10px;
-}
-
-.sku-tj .sku {
-  background-color: #f5f5f5;
-}
-
-.sku-tj .index-title {
-  height: 235px;
-  background-color: #111;
 }
 
 .sku-tj .index-title h2 {
-  color: #3b3b3b;
+  color: #e7e7e7;
 }
 
 .sku-tj .index-title h3 {
-  color: #fff;
+  color: #2f2f38;
 }
 
 /****************************
  * 产品列表
  ****************************/
 .product-container {
-  margin-top: 20px;
-  padding: 0 10px;
+  margin-top: 30px;
+  margin-bottom: 70px;
 }
 .product-slide {
-  margin-top: -56px;
-  padding: 0 10px;
 }
 
 .product-swiper-container {
-  padding-left: 12px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1235,85 +1254,54 @@ button {
 
 .product-slide .swiper-slide {
   padding: 20px 0;
-  width: 90px;
-  font-size: 16px;
+  width: 20%;
+  font-size: 14px;
   text-align: center;
   color: #666;
+  cursor: pointer;
 
   transition: all ease-in 0.2s;
   -webkit-transition: all ease-in 0.2s;
   -moz-transition: all ease-in 0.2s;
   -ms-transition: all ease-in 0.2s;
   -o-transition: all ease-in 0.2s;
+}
 
-  transform: scale(0.9);
-  -webkit-transform: scale(0.9);
-  -moz-transform: scale(0.9);
-  -ms-transform: scale(0.9);
-  -o-transform: scale(0.9);
+.product-slide .swiper-slide:not(:last-child) {
+  border-right: 1px solid #ddd;
 }
 
 .product-slide .swiper-slide img {
-  margin-bottom: 10px;
-  width: 50px;
-  background-color: #f3f3f3;
+  width: 60px;
   border-radius: 50%;
 }
 
-.product-slide .swiper-slide img.active {
-  display: none;
-}
-
-.product-slide .swiper-slide img.default {
-  display: inline;
-}
-
 .product-slide .swiper-slide.on {
-  transform: scale(1);
-  -webkit-transform: scale(1);
-  -moz-transform: scale(1);
-  -ms-transform: scale(1);
-  -o-transform: scale(1);
-
+  font-size: 18px;
   color: #111;
 }
 
-.product-slide .swiper-slide.on img {
-  background-color: #111;
-}
-
-.product-slide .swiper-slide.on img.active {
-  display: inline;
-}
-
-.product-slide .swiper-slide.on img.default {
-  display: none;
-}
-
-.product-detail-container {
-  position: relative;
-  padding: 0 10px;
-}
-
 .product-slide2 {
-  margin-top: -56px;
-  padding: 0 10px;
+  margin-top: -108px;
+  margin-left: auto;
+  margin-right: auto;
+  width: 600px;
 }
 
 .product2-swiper-container {
-  padding: 20px 0 25px 12px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .product-slide2 .swiper-slide {
-  width: 90px;
-  height: 40px;
-  line-height: 40px;
+  width: 33.3333%;
+  height: 76px;
+  line-height: 76px;
   font-size: 14px;
   text-align: center;
   color: #666;
+  cursor: pointer;
 
   transition: font-size ease-in 0.2s;
   -webkit-transition: font-size ease-in 0.2s;
@@ -1322,41 +1310,38 @@ button {
   -o-transition: font-size ease-in 0.2s;
 }
 
-.product-slide2 .swiper-slide span {
-  display: inline-block;
+.product-slide2 .swiper-slide:not(:last-child) {
+  border-right: 1px solid #ddd;
 }
 
 .product-slide2 .swiper-slide.on {
-  font-size: 17px;
-}
-
-.product-slide2 .swiper-slide.on span {
-  border-bottom: 2px solid #111;
-
+  font-size: 18px;
   color: #111;
 }
 
-.product-detail-desc {
-  margin-top: -58px;
-  padding: 15px;
+.product-detail-container {
+  position: relative;
+  padding: 20px;
   border-radius: 5px;
   background-color: #fff;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  overflow: hidden;
 }
 
 .product-detail-text {
   margin-top: 30px;
-  padding: 0 15px;
+  overflow: hidden;
 }
 
-.product-detail-text h2 {
+.product-detail-text h4 {
+  margin-bottom: 15px;
   font-size: 16px;
   font-weight: 500;
 }
 
 .product-detail-text p {
   font-size: 14px;
-  line-height: 24px;
+  line-height: 28px;
   text-align: justify;
 }
 
@@ -1366,10 +1351,14 @@ button {
 
 .product-detail-desc {
   position: relative;
+  float: left;
+  width: 510px;
+  padding-left: 10px;
+  padding-top: 10px;
 }
 
 .product-detail-desc h3 {
-  font-size: 16px;
+  font-size: 14px;
   font-style: italic;
   color: #808080;
   font-weight: 500;
@@ -1379,7 +1368,7 @@ button {
 .product-detail-desc h2 {
   margin: 0 0 20px;
   padding-right: 50px;
-  font-size: 20px;
+  font-size: 16px;
   font-weight: 500;
   line-height: 24px;
 }
@@ -1389,16 +1378,35 @@ button {
   font-size: 14px;
 }
 
-.product-detail-desc .like {
+.product-detail-container .like-pro {
   position: absolute;
-  right: 25px;
-  top: 60px;
+  right: 40px;
+  bottom: 40px;
+  padding: 6px;
+  border-radius: 18px;
+  font-size: 0;
+  background-color: #111;
+}
+
+.product-detail-container .like-pro .like {
+  display: inline-block;
+  width: 24px;
+  height: 24px;
+  background: url("../images/icon-heart-white.png") no-repeat;
+  background-size: 24px;
+}
+.product-detail-container .like-pro .like.on {
+  background-position: 0 -24px;
+}
+
+.product-detail-desc .tel-pro {
+  float: left;
+  margin-right: 60px;
+  font-size: 16px;
 }
 
 .product-detail-desc .share-container {
-  position: absolute;
-  right: 25px;
-  top: 110px;
+  margin-top: 30px;
   font-size: 0;
 }
 
@@ -1407,7 +1415,7 @@ button {
 }
 
 .product-detail-desc .share {
-  width: 30px;
+  width: 70px;
   overflow: hidden;
 
   transition: all ease-in 0.2s;
@@ -1418,21 +1426,23 @@ button {
 }
 
 .product-detail-desc .share.on {
-  width: 91px;
+  width: 150px;
 }
 
 .share-container .tel {
   display: inline-block;
-  margin-right: 5px;
-  width: 30px;
-  height: 30px;
+  margin-right: 10px;
+  width: 36px;
+  height: 36px;
   border-radius: 50%;
   background: url("../images/icon-footer-3.png") no-repeat 50% 50% #111;
   background-size: 18px auto;
+  vertical-align: middle;
 }
 
 .product-detail-slide {
-  margin-top: 20px;
+  float: right;
+  width: 590px;
 }
 
 .product-detail-slide img {
@@ -1458,48 +1468,55 @@ button {
  ****************************/
 .case-container {
   position: relative;
-  margin-top: -68px;
 }
 
 .case-items {
-  padding: 0 10px;
+  padding-bottom: 55px;
 }
 
 .case-item {
-  margin: 13px 0;
+  margin: 20px 0;
 }
 
 .case-item a {
   display: block;
-  padding: 12px;
+  padding: 20px 36px 20px 20px;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.case-item a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .case-item img {
   float: left;
-  width: 156px;
+  width: 210px;
+  border-radius: 8px;
+  padding-right: 30px;
 }
 
 .case-item .text {
-  display: flex;
-  padding-left: 15px;
-  height: 179px;
-  align-items: center;
+  overflow: hidden;
 }
 
 .case-item .text h2 {
-  margin-top: 0;
-  margin-bottom: 30px;
-  font-size: 15px;
+  margin-top: 35px;
+  margin-bottom: 20px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
 }
 
+.case-item .text p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
 .case-item .text span {
   display: block;
+  margin-top: 50px;
   width: 30px;
   height: 30px;
   border: 1px solid #cecece;
@@ -1507,21 +1524,30 @@ button {
   background-size: 16px auto;
 }
 
+.case-item .text span:hover {
+  background: url("../images/arrow-white.png") no-repeat 50% 50% #111;
+  border-color: #111;
+  background-size: 16px auto;
+}
+
 .case-detail-container {
   position: relative;
-  margin-top: -58px;
-  padding: 0 10px;
+  margin-bottom: 30px;
 }
 
 .case-detail-body {
-  padding: 15px;
+  padding: 35px;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+  box-shadow: 0 20px 20px rgba(0, 0, 0, 0.02);
   color: #666;
   line-height: 24px;
   text-align: justify;
   font-size: 14px;
+}
+
+.case-detail-body p {
+  margin: 30px 0;
 }
 
 .case-detail-body img {
@@ -1531,32 +1557,32 @@ button {
 .case-detail-title {
   padding: 15px 0;
   text-align: center;
-  border-bottom: 1px solid #ddd;
-  font-size: 16px;
+  border-bottom: 1px solid #eee;
+  font-size: 20px;
   line-height: 20px;
   color: #333;
 }
 
 .case-detail-title .date {
-  margin-top: 5px;
+  margin-top: 15px;
   color: #cacaca;
   font-size: 14px;
 }
 
 .case-detail-prevnext {
-  padding: 10px;
+  padding: 25px 0;
 }
 
 .case-detail-prev,
 .case-detail-next {
   margin: 15px 0;
-  padding-left: 30px;
-  height: 20px;
-  line-height: 20px;
+  padding-left: 50px;
+  height: 30px;
+  line-height: 30px;
   font-size: 14px;
   color: #666;
   background-repeat: no-repeat;
-  background-size: 20px auto;
+  background-size: 30px auto;
 }
 
 .case-detail-prev.disabled,
@@ -1582,57 +1608,62 @@ button {
  ****************************/
 .news-container {
   position: relative;
-  margin-top: -58px;
 }
 
 .news-items {
-  padding: 0 10px;
+  padding-bottom: 75px;
 }
 
 .news-item {
   position: relative;
-  margin: 10px 0;
+  margin: 20px 0;
 }
 
 .news-item a {
   display: block;
-  padding: 8px;
+  padding: 16px 16px 16px 36px;
   background-color: #fff;
   border-radius: 5px;
-  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
+}
+
+.news-item a:hover {
+  box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
 .news-item img {
   float: right;
   margin-left: 20px;
-  width: 156px;
+  width: 330px;
 }
 
 .news-item .text {
-  display: flex;
-  padding-left: 10px;
-  align-items: center;
+  margin-top: 36px;
 }
 
 .news-item .text h2 {
-  margin-top: 10px;
-  margin-bottom: 0;
-  font-size: 15px;
+  margin-top: 0;
+  margin-bottom: 25px;
+  font-size: 20px;
   line-height: 24px;
   font-weight: 500;
 }
 
+.news-item .text p {
+  font-size: 14px;
+  line-height: 28px;
+}
+
 .news-item .date {
   position: absolute;
-  left: 18px;
-  bottom: 15px;
-  font-size: 12px;
+  left: 36px;
+  bottom: 48px;
+  font-size: 14px;
   color: #cacaca;
 }
 
 .news-item .date b {
-  font-size: 15px;
+  font-size: 18px;
 }
 
 /****************************
@@ -1640,57 +1671,75 @@ button {
  ****************************/
 .about-container {
   position: relative;
-  margin-top: -58px;
 }
 
 .about-profile {
-  margin: 0 10px 30px;
-  padding: 15px 15px 20px;
+  padding: 35px 30px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   overflow: hidden;
 }
 
+.about-profile img {
+  float: left;
+  margin-right: 30px;
+}
+
 .about-protile-text {
+  padding: 13px 0;
   font-size: 14px;
   line-height: 24px;
   text-align: justify;
   color: #333;
 }
 
-.about-protile-text p img {
-  max-width: 100%;
+.about-slide {
+  margin: 38px 30px 80px;
 }
 
-.about-slide {
+.about-slide .swiper-slide {
+  width: 485px;
+  height: 300px;
 }
 
 .about-slide .swiper-slide img {
   width: 100%;
 }
 
-.about-slide .swiper-pagination {
-  position: static;
-  margin-top: 15px;
+.about-slide .swiper-prev,
+.about-slide .swiper-next {
+  z-index: 9;
+  position: absolute;
+  top: 50%;
+  margin-top: -16px;
+  width: 32px;
+  height: 32px;
+  background-color: #fff;
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  background-size: 16px auto;
+  opacity: 0.9;
+  cursor: pointer;
 }
 
-.about-wechat {
-  padding: 30px 0;
-  text-align: center;
-  font-size: 14px;
-  line-height: 24px;
-  background: url("../images/img-about-2.jpg") no-repeat;
-  background-size: cover;
-  color: #fff;
+.about-slide .swiper-prev:hover,
+.about-slide .swiper-next:hover {
+  opacity: 1;
 }
 
-.about-wechat .wechat {
-  width: 30px;
+.about-slide .swiper-prev {
+  left: 0;
+  background-image: url(../images/arrow-gray-2.png);
 }
 
-.about-wechat .erweima {
-  width: 100px;
+.about-slide .swiper-next {
+  right: 0;
+  background-image: url(../images/arrow-gray.png);
+}
+
+.about-address {
+  background-color: #333333;
 }
 
 /****************************
@@ -1700,13 +1749,8 @@ button {
   background-color: #f5f5f5;
 }
 
-.login .banner h2 {
-  margin-bottom: 5px;
-  font-size: 30px;
-}
-
-.login .banner h3 {
-  font-size: 16px;
+.login .banner {
+  height: 180px;
 }
 
 .login-container {
@@ -1715,10 +1759,13 @@ button {
 
 .login-tab {
   position: relative;
-  display: flex;
   margin-top: -32px;
-  height: 65px;
-  line-height: 65px;
+  margin-left: auto;
+  margin-right: auto;
+  display: flex;
+  width: 550px;
+  height: 64px;
+  line-height: 64px;
   background-color: #fff;
   border-radius: 5px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
@@ -1776,12 +1823,16 @@ button {
 }
 
 .login-form {
-  padding: 25px 18px;
+  padding: 25px 0;
+  margin-left: auto;
+  margin-right: auto;
+  width: 530px;
 }
 
 .login-form .form-item {
   position: relative;
   display: flex;
+  margin-top: 20px;
   padding: 15px 0;
   height: 20px;
   line-height: 20px;
@@ -1797,6 +1848,7 @@ button {
 
 .login-form .form-input {
   flex: 1;
+  padding-left: 15px;
 }
 
 .login-form .form-input input {
@@ -1818,12 +1870,12 @@ button {
 
 .login-form .btn {
   display: block;
-  height: 40px;
-  line-height: 40px;
+  height: 46px;
+  line-height: 46px;
   text-align: center;
   font-size: 14px;
   color: #fff;
-  border-radius: 20px;
+  border-radius: 23px;
   background-color: #111;
 }
 
@@ -1850,7 +1902,8 @@ button {
 }
 
 .login-other img {
-  width: 33px;
+  margin-top: 10px;
+  width: 40px;
 }
 
 /****************************
@@ -1869,18 +1922,41 @@ button {
 
 .fav-list {
   margin-top: 40px;
+  margin-bottom: 70px;
 }
 
 /****************************
  * 找回密码
  ****************************/
 .find-password-ok {
-  margin-top: 50px;
+  margin-top: 130px;
   text-align: center;
   font-size: 14px;
 }
 .find-password-ok img {
   width: 43px;
+}
+
+/****************************
+ * 微信登录
+ ****************************/
+.login-wechat {
+  margin-top: 40px;
+  text-align: center;
+}
+
+.login-wechat-tip {
+  margin-left: auto;
+  margin-right: auto;
+  margin-top: 30px;
+  padding: 11px 0;
+  width: 338px;
+  border-radius: 31px;
+  background-color: #111;
+  color: #fff;
+  text-align: center;
+  font-size: 14px;
+  line-height: 20px;
 }
 
 @media screen and (max-width: 320px) {
